@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mastermind.bdc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BDC">
+
+        <activity android:name=".AddTimeTable.ProAddTimeTable"
+            android:label="Add TimeTable"
+            android:parentActivityName=".ProfTimeTable.TimeTableProf"/>
+
+        <activity android:name=".ProfTimeTable.TimeTableProf" />
+
+        <activity
+            android:name=".AchivementOthers.ProfAchievement"
+            android:parentActivityName=".Professor.MainActivityProf" />
+
+        <activity
+            android:name=".Principal.MainActivityPrincipal"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".HOD.MainActivityHOD"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".AddProfessor.AddProfessor"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".Announcement.Announcement"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".ExamSchedule.ExamSchedule"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".login.Principal"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".login.HOD"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity android:name=".AddAttendance.DepAttendance"/>
+
+        <activity
+            android:name=".Professor.MainActivityProf"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".login.LoginProf"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".TimeTable.ExtendTimeTable"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".TimeTable.TimeTable"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".Achivement.Achivement"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".Fees.Fees"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".sems.Sem6"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".sems.Sem5"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".sems.Sem4"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".sems.Sem3"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".sems.Sem2"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".sems.Sem1"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".Result.Result"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".Profile.EditProfile"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".Profile.Profile"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".Register.Register"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".attendance.Attendance"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".login.Login"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+    </application>
+
+</manifest>

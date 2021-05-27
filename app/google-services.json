@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "804777169111",
+    "project_id": "bharathidasan-6da49",
+    "storage_bucket": "bharathidasan-6da49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804777169111:android:025f4fbbfe76217b3c6092",
+        "android_client_info": {
+          "package_name": "com.mastermind.bdc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804777169111-8gf7h6qf33aco8p6p8g92ofvodgvvs1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs5KT5NnRGu6ePMV4ROx3x9vgPhYbuEv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804777169111-8gf7h6qf33aco8p6p8g92ofvodgvvs1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
